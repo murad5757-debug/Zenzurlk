@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenzur - Home</title>
+
+    <!--webicon-->
+    <link rel="shortcut icon" href="tar.ico">
+
+    <!--Bootstrap 4.4.1-->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+
+
+
+    <!--Font awesome cdn link https://fontawesome.com/v4.7.0/icons/-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Font awesome cdn link https://fontawesome.com/v4.7.0/icons/-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;600&family=Parisienne&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--Lobster Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!--animation css from aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!--Customizing style css--> <!-- it has been added because normal css code is not working in Xamp -->
+    <link rel="stylesheet" href="Assets/css/Styling.css?v=?php echo time();?>">
+
+
+
+
+
+</head>
+
+<body>
+
+    <!------------------------------Top Bar------------------->
+    <div class="top-bar ">
+        <div class="container">
+            <div class="col-12 text-right my-auto  ">
+                <p><a href="tel:+94777734180">Call Us +94-77-773-4180</a></p>
+            </div>
+        </div>
+    </div>
+    <!--End Top Bar------------------------------------------->
+
+
+    <!------------------------------Navigation Starts---------------->
+    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand"><img src="Assets/Images/Home/cup.svg" alt="logo"
+                    class="d-inline-block align-center" title="Logo"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <!--The Hamburger icon-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">HOME</a></li>
+                    <li class="nav-item"><a href="ceylontea.html" class="nav-link ">CEYLON TEA</a></li>
+                    <li class="nav-item"><a href="about-us.html" class="nav-link ">ABOUT US</a></li>
+                    <div class="dropdown">
+                    <li class="nav-item"><a href="our-products.html" class="nav-link dropbtn">OUR PRODUCTS</a></li>
+                    <div class="dropdown-content">
+                        <a href="our-products.html"target="_blank"> Classic Black Tea</a>
+                        <a href="our-product-green.html" target="_blank"> Classic Green Tea</a>
+                        <a href="our-products-flavoured-black.html" target="_blank"> Flavoured Black Tea</a>
+                        <a href="our-products-flavoured-green.html" target="_blank"> Flavoured Green Tea</a>
+                    </div>
+                </div>
+
+                    <li class="nav-item"><a href="contact-us.html" class="nav-link ">CONTACT US</a></li>
+                    <li class="nav-item"><a href="signing.php" class="nav-link ">SIGN IN</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+    <!--End Navigation---------------------------------------->
+
+
+
+
+    <!------------------------Carousel Section Starts---------------------------------->
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <!------------------------------ Image Carousel---------------->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="Assets/Images/Home/today-pack.jpg" alt="" class="w-100">
+            </div>
+
+            <div class="carousel-item">
+                <img src="Assets/Images/Home/Dark.jpg" alt="" class="w-100">
+            </div>
+
+            <div class="carousel-item">
+                <img src="Assets/Images/Home/double-color.jpg" alt="" class="w-100">
+            </div>
+
+            <div class="carousel-item">
+                <img src="Assets/Images/Home/Carousel-2.png.jpg" alt="" class="w-100">
+            </div>
+
+        </div>
+
+
+        <!--------------------------------- Image Carousel END---------------->
+
+        <!----------------------Previous and next  buttons-------------------->
+
+        <!--Previous Button-->
+        <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class=""><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></span>
+        </a>
+
+
+        <!--next Button-->
+        <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+            <span class=""><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></span>
+        </a>
+
+
+        <!-------------------Previous and next buttons--------------------->
+    </div>
+
+
+
+
+
+    <!------------------------Carousel Section End---------------------------------->
+
+
+
+
+
+
+
+    <!---------------------------First Background Image css------------------------->
+
+    <div class="first-bgi">
+        <div class="row text-light">
+            <div class="col-12 text-center my-5" data-aos="fade-bottom">
+                <!--heading-->
+                <h2 class="col-12 d-inline-block">Explore Our Wide Range Of Zenzur Ceylon Tea.!
+                </h2>
+                <div class="mx-auto w-25 "> </div>
+
+
+                <div class="container">
+                    <div class="row text-center mx-auto my-4 ">
+
+                        <!--First Product-->
+                        <div class=" double-product col-md-3 my-2  d-inline-block" data-aos="fade-right">
+ 
+                            <div class="inner" >
+                                <a href="./pages/Pekoe-100g.html" target="_blank"><img src="Assets/Images/Home/home-pekoe-100G.png" alt="img1"
+                                    class="card-img-top rounded w-75"></a>
+                            </div>
+                            <div class=" double-product-caption card-body p-1">
+                                <h6 class="text-center card-title"><a href="./pages/Pekoe-100g.html">BLACK TEA - PEKOE<br>
+                                        100g</a></h6>
+
+                            </div>
+
+
+                        </div>
+                        <!--second Product-->
+                        <div class=" double-product col-md-3 my-2 d-inline-block "data-aos="fade-right">
+
+                            <div class="inner" >
+                                <a href="./pages/gp1-100g.html" target="_blank"><img src="Assets/Images/Home/home-green-100G.png" alt="img2"
+                                    class="card-img-top rounded w-75"></a>
+                            </div>
+
+                            <div class=" double-product-caption card-body p-1">
+                                <h6 class="text-center card-title"><a href="#">GREEN TEA - GP1<br>
+                                        100g</a></h6>
+
+                            </div>
+
+
+                        </div>
+                        <!--third Product-->
+                        <div class=" double-product col-md-3 my-2 d-inline-block" data-aos="fade-left">
+
+                            <div class="inner" >
+
+                                <a href="./pages/fbop-100g.html" target="_blank"><img src="Assets/Images/Home/home-fbop-100G.png" alt="img3"
+                                    class="card-img-top rounded w-75"></a>
+                            </div>
+
+                            <div class=" double-product-caption card-body p-1">
+                                <h6 class="text-center card-title"><a href="#">BLACK TEA - FBOP<br>
+                                        100g</a></h6>
+                            </div>
+
+
+                        </div>
+
+                        <!--forth Product-->
+                        <div class=" double-product col-md-3 my-2 d-inline-block" data-aos="fade-left">
+
+                            <div class="inner" >
+                                <a href="./pages/Super-Pekoe-100g.html" target="_blank"><img src="Assets/Images/Home/home-super-pekoe-100G.png" alt="img4"
+                                    class="card-img-top rounded w-75"></a>
+                                
+                            </div>
+
+                            <div class=" double-product-caption card-body p-1">
+                                <h6 class="text-center card-title"><a href="#">BLACK TEA - SUPER PEKOE<br>
+                                        100g</a></h6>
+
+                            </div>
+                        </div>
+                        <div class="container my-5">
+
+                            <a href="our-products.html" target="_blank" class="btno">VIEW ALL</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------products page ends------------------------->
+
+
+
+
+
+
+
+
+    <!-- first stick line navbar-->
+
+   
+    <!-- first stick line navbar-->
+
+
+
+
+
+
+
+
+
+    <!--------------------------- Starts Fixed background image with text------------------------->
+    <div class="fixed-background">
+        <div class="row text-light py-0 mx-0">
+
+            <div class="col-12 text-center"  >
+                <h1 class="col-lg-9 col-sm-12 d-inline-block" data-aos="fade-left"> Sit back and relax while we bring you the best of
+                    Ceylon tea!
+                </h1>
+
+                <p class="  py-5 mx-2 col-lg-10 col-sm-12  d-inline-block" data-aos="fade-right">CEYLON TEA
+                    CONSISTS PRIMARILY
+                    OF BLACK TEA, ALTHOUGH GREEN TEA AND OTHER
+                    TYPES OF TEA ARE ALSO GROWN. DESPITE SRI LANKA BEING A COMPARATIVELY SMALL COUNTRY,
+                    IT HAS A WIDE RANGE IN ELEVATION, WHICH RESULTS IN THE FLAVOURS OF TEA BEING PRODUCED VARYING
+                    GREATLY DEPENDING ON THE PART OF THE COUNTRY THEY ORIGINATE FROM. THE MAIN DIFFERENCES IN FLAVOUR
+                    ARE A RESULT OF THE CLIMATE, SOIL, SUN, PRECIPITATION, AND PLANT VARIETALS!
+                </p>
+
+                <div class="container">
+                    <a href="ceylontea.html" class="btno">READ MORE</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="fixed-wrap">
+            <div class="fixed">
+            </div>
+        </div>
+    </div>
+    <!--------------------------- End Fixed background image with text------------------------->
+
+
+
+
+
+
+
+    <!-- second stick line navbar COLLAPSE-->
+
+    <a class="navbar icons" href="#icons" role="button" data-toggle="collapse"><i class="fa fa-leaf"
+            aria-hidden="true"></i> </a>
+
+
+
+    <div class="collapse" id="icons">
+        <div class="container" >
+            <div class="row" >
+                <div class="col-sm-6 col-md-3"><img src="Assets/Images/modal-img/1.jpg" alt="" class="w-100"></div>
+                <div class="col-sm-6 col-md-3"><img src="Assets/Images/modal-img/2.jpg" alt="" class="w-100"></div>
+                <div class="col-sm-6 col-md-3"><img src="Assets/Images/modal-img/3.jpg" alt="" class="w-100"></div>
+                <div class="col-sm-6 col-md-3"><img src="Assets/Images/modal-img/4.jpg" alt="" class="w-100"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Second stick line navbar COLLAPSE-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- THE ELEPHANT SECTION AND TEXT STARTS TWO COLOUMN SECTION-->
+
+
+
+    <!-- THE ELEPHANT SECTION AND TEXT STARTS TWO COLOUMN SECTION-->
+
+
+
+
+
+
+
+
+
+    <!-- THE social media sectio0n with 3photos-->
+    
+    <section class="section-2">
+        <div class="container">
+            <div>
+                <h1 class="text-center py-4"> Social Feed's</h1>
+            </div>
+            <div class="row pb-5" >
+
+                <div class="  col-lg-4  py-3" data-aos="fade-right">
+                    <div class="god-father-of-image-overlay">
+                        <img src="Assets/Images/Home/section-2-1.jpg" alt="Avatar" class="image w-100">
+                        <div class="overlay">
+                            <a href="https://www.instagram.com/" target="_blank" class="icn" title="User Profile">
+                                <h2>Follow Us On</h2>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="  col-lg-4 py-3" data-aos="fade"      data-aos-easing="ease-in-out">
+                    <div class="god-father-of-image-overlay">
+                        <img src="Assets/Images/Home/section-2-2.jpg" alt="Avatar" class="image w-100">
+                        <div class="overlay">
+                            <a href="https://www.instagram.com/" target="_blank" class="icn" title="User Profile">
+                                <h2>Follow Us On</h2>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="  col-lg-4 py-3" data-aos="fade-left">
+                    <div class="god-father-of-image-overlay">
+                        <img src="Assets/Images/Home/section-2-3.jpg" alt="Avatar" class="image w-100">
+                        <div class="overlay">
+                            <a href="https://www.instagram.com/" target="_blank" class="icn" title="User Profile">
+                                <h2>Follow Us On</h2>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- THE social media sectio0n with 3photos Ends-->
+            <div class="container">
+                <div class="text-center pb-5">
+                    <a href="https://www.facebook.com/drrumie" target="_blank" class="btno">FOLLOW US</a>
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------------section3 same background image of section-2-->
+            <section class="section-3">
+                <div class=" lion-logo-coloumn container">
+                    <div class="row p-4">
+                        <!--lio-logo-section-->
+
+                        <div class="col-lg-5 my-3 mb-3 pb-5" data-aos="fade-right"><img src="Assets/Images/Home/lion-logo-image.png"
+                                alt="elephant-image" class="w-100"></div>
+
+                        <div class="col-lg-7 mb-1 my-md-auto" data-aos="fade-left">
+                            <h1 class="lion-heading pt-3">pure ceylon quality guarantee.!
+                            </h1>
+                            <p class="lion-paragraph mb-4 pb-4">Each package of Zenzur tea is marked with the famous
+                                “Lion Carrying a Sword” logo - a symbol of high
+                                quality that guarantees 100% pure Ceylon tea, grown
+                                and packaged in Sri Lanka.</p>
+
+                        </div>
+
+                        <!-- second coloumn starts-->
+
+
+
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <!--social feed with 3phtos and lion logo section finsied here ENDS-->
+
+    <!--*********************************footer starts*******************************************-->
+
+    <footer>
+        <div class="container col-12">
+            <div class="row text-light text-center py-4 justify-content-center">
+
+                <div class="col-sm-6 col-md-8 col-lg-5">
+                    <img src="Assets/Images/Home/footer-Logo.png" alt="footer image" class=" d-inline-block">
+                </div>
+                <div class="col-lg-8 col-sm-8">
+                    <h5>HEAD OFFICE</h5>
+                    <p>No 67B Sedawatte Road, Wennawatte
+                        Wellampitiya,Sri
+                        Lanka.
+                        <br>
+                        Hot line :+94 77 7734180 /
+                        Tel: +94-11-2554536
+
+                        <br>
+                        E-mail: info@ceylontealand.com
+                    </p>
+
+                    <ul class="social pt-1 text-center">
+                        <li><a href="https://www.facebook.com/drrumie" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--*********************************footer ENDS*******************************************-->
+
+
+
+    <!-------------------Start Socket---------------->
+
+    <div class="socket text-light text-center py-3 col-12">
+        <p>&copy; <a href="https://ceylontealand.com" target="_blank">2021 Zenzur. All Rights Reserved!
+            </a></p>
+    </div>
+
+    <!--End Socket----------------------------------->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 900
+        });
+    </script>
+
+    <!--Script Source Files-->
+
+    <!--Jquery Version 3.4.1 Jquery.com-->
+    <script src="Assets/js/Jquery-3.4.1.min.js"></script>
+
+    <!--Bootsrap Js 4.4.1-->
+    <script src="Assets/js/bootstrap.min.js"></script>
+
+    <!--Popper Js from bootsrap cdn to download via link //https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js-->
+    <script src="Assets/js/4.4.1-bootrsap-popper.min.js"></script>
+</body>
+
+</html>

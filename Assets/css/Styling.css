@@ -1,0 +1,1311 @@
+ /*--Body Reset --*/
+
+ /*google font*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Teko:wght@500&display=swap');/*Lobster*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+ 
+ 
+ /*
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat',sans-serif,'poppins','roboto';
+font-family: 'Times New Roman', Times, serif;
+font-family:'roboto';
+font-family:"poppins";
+font-family: 'Teko', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Domine', serif;
+
+
+ */
+ /*google fonts end*/
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif,'poppins','roboto';
+    color: #ffff;
+    font-family:'roboto';
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+/*to selection of text*/
+  ::selection {
+    color: black;
+    background: white;
+  }
+/*=========================================================****HOME PAGE STYLING STARTS******========================================*/
+
+/*========TOP BAR HEADER==========*/
+/*for only the background*/
+.top-bar{
+    background-color: #f7941e;
+    height: 1.8rem;
+    padding: .2rem 0;
+}
+/*inside the background*/
+.top-bar a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+
+/*===============NAVIGATION BAR===========*/
+/* inside navbar image height*/
+.navbar-brand img {
+    height: 3rem;
+}
+
+nav{
+    z-index:999;
+}
+
+/*nav bar letters */
+.navbar {
+    font-size: 0.8rem;
+    font-weight: 700;
+    box-shadow: 0 0 .5rem 0 rgba(0, 0, 0,.2);
+    z-index: 999!important;
+}
+
+.navbar{
+    background-color: #23180a;
+    
+}
+
+/*nav items padding*/
+.nav-item{
+    padding: 0.7rem;
+}
+
+.nav-link{
+    color: white !important;
+    border: 2px solid transparent;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #f7941e ;
+    color: black;
+    transition: 2s;
+}
+
+.nav-link.active,
+.nav-link:hover{
+    color: #f7941e !important;
+    transition: 2s ease;
+}
+
+/*=====================================dropdown button starts===========================================*/
+
+.dropdown{
+
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn{
+    color: white;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #23180a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2,);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f7941e;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*=====================================dropdown button Ends===========================================*/
+
+/*=====================CAROUSEL=====================*/
+
+
+/*BOTTOM OF THE CAROUSEL SLIDER*/
+.carousel-inner {
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+    z-index: -999;
+    max-height:380rem!important;
+}
+
+
+#carouselExampleIndicators{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
+ 
+}
+
+/*----carousel transition speed----*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-next.active {
+    transition: transform .5s ease;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 11%;
+    transform: translateY(-10%);
+    transform: translateX(-43%);
+    
+}
+
+.carousel-caption h3{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:  .1rem .1rem .3rem rgba(0, 0, 0, .1);
+}
+
+.carousel-caption img{
+    height: 13rem;
+}
+
+
+
+
+/*=====================FIRST BACKGROUND IMAGE=====================*/
+/*first background Image & contents starts*/
+
+.first-bgi{
+   background-image: url("../Images/Home/home-sub-bgi-1.jpg");
+   background-size: cover;
+   background-position: center center;
+   position: relative;
+   top: 0;
+   bottom:0;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+   height: auto;
+}
+
+/*RESPONSIVE*/
+
+.first-bgi .mx-auto{
+    border-top: #ca970d;
+
+}
+@media screen and (max-width:576px){
+    .first-bgi{
+        width: 100%;
+        height: 56rem;
+        background-size: cover;
+    }
+}
+
+/*=====================BUTTON=====================*/
+
+a.btno {
+    border: none;
+    background-color: #f7941e;
+    padding: 6px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    color: black;
+    font-family:'roboto';
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .btno:hover {
+      background: #937a6c;
+      color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+/* heading font change*/
+.first-bgi h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    color: black;
+    font-size: 3rem;
+    
+}
+
+@media screen and (max-width:576px){
+    .first-bgi h2{
+        font-size: 25px;
+       
+    }
+}
+
+
+
+
+
+
+/*PRODUCT ON HOMEPAGE*/
+/*to make the home page products double while viewing on small devices*/
+
+@media screen and (max-width:576px){
+    .double-product{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:720px){
+    .double-product{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+.double-product-caption h6{
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+/*products anchor tags*/
+.double-product-caption h6 a{
+    font-family: 'Teko', sans-serif;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+   
+    
+}
+
+/*animated inners caption responsive*/
+@media screen and (max-width:576px){
+    .double-product-caption h6 a{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:720px){
+    .double-product-caption h6 a{
+        font-size: 1.4rem;
+    }
+}
+
+
+/*IMAGE FLIPPER*/
+
+.double-product img:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transition: 1s ease;
+}
+
+
+
+
+
+
+
+
+/****************************MEDIA QUERIES*************************/
+
+/*For the devices under 1199px (xl) */
+@media (max-width:1199.98px) {
+
+}
+/* Device under 768px (md) */
+@media (max-width:767.98px){
+
+}
+
+/*There is a mobile gutter and fixer*/
+.row, .container-fluid{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+
+
+
+
+
+
+/*----------------------------For Fixed Background Image-----------------------------*/
+
+.fixed-background{
+    position: relative;
+    width: 100%;
+    z-index: 1000!important;/*for back of the image*/
+}
+
+.fixed-wrap{
+    clip: rect(0, auto,auto,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+
+.fixed{
+    z-index: -999 !important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    /*there is more will see if it demand lets add all the codngs*/
+}
+
+
+.fixed{
+    background-image: url('../Images/Home/whity.jpg');
+    position: fixed;
+    background-size: cover;
+    width: 100%;
+    z-index: -999 !important;
+}
+
+.fixed-background{
+    padding: 6rem 0;
+}
+
+
+
+.fixed-background h1{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    color: black;
+}
+
+/*media queries responsive for fixed background heading*/
+
+@media screen and (max-width:720px){
+    .fixed-background h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:576px){
+    .fixed-background h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+.fixed-background p{
+    line-height: 2;
+    font-family:"poppins";
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    color: black;
+    
+}
+
+/* media queriwes responsive for fixed background paragraph*/
+@media screen and (max-width:576px){
+    .fixed-background p{
+        font-size: 1rem;
+        text-transform: lowercase;
+    }
+}
+
+
+
+
+
+
+
+/*----------------------------Icon Navbar styling-----------------------------*/
+.icons {
+    background-color: #F7941E;
+    min-height: 0!important;
+    padding: .4rem 0!important;
+}
+
+/*to get the navbar icon to centetr and changing the color*/
+.icons .fa{
+    margin: 0 auto;
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+
+/*2 coloumn section-1 */
+
+
+.section-1{
+    background-image: url(../Images/Home/sectiom-1-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    
+}
+.second-coloumn h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: left;
+    letter-spacing: 0.3px;
+}
+
+/* media queriwes responsive for section-1 h1*/
+@media screen and (max-width:576px){
+    .second-coloumn h1{
+        font-size: 2.5rem;
+        
+    }
+}
+
+
+.second-coloumn p{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+   
+}
+
+
+
+
+.tea-color{
+    color: #F7941E;
+}
+
+
+
+
+
+
+
+
+/*****************SOCIAL FEED'S****************/
+                    
+ /*************SECTION 2*******************/
+
+
+/*3 image section*/
+.section-2 img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.section-2{
+    background-image: url(../Images/Home/section-2\ bg.jpg);
+    width: 100%;
+    max-height: auto;
+    background-size: cover;
+    
+}
+
+.section-2 h1{
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************Section 2 iMage overlay ;)*****************/
+
+
+.god-father-of-image-overlay {
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 100%);
+    text-decoration: none;
+  }
+
+  .overlay h2{
+      color: #fff;
+      text-decoration: none;
+      color: inherit;
+      font-family: 'Lobster Two', cursive;
+
+  }
+  
+  .god-father-of-image-overlay:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icn {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: white;
+  }
+
+ .god-father-of-image-overlay a{
+     text-decoration: none;
+
+ }
+
+ .god-father-of-image-overlay a:hover{
+ color: white;
+}
+
+
+
+
+
+
+/*Section 3 styling lion logo section*/
+.section-2 .lion-paragraph {
+    color: black;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+
+
+/*media queries responsive for lion logo heading*/
+
+@media screen and (max-width:576px){
+    .lion-heading {
+        font-size: 0.5rem;
+        width: 100%;
+        padding-top:2rem ;
+        text-align: center;
+    }
+    
+}
+
+
+
+@media screen and (max-width:576px){
+    .lion-paragraph {
+        font-size: 1.2rem;
+        padding-top:2rem ;
+        text-align: justify;
+    }
+    
+}
+
+
+
+/*Footer Section Starts over here*/
+
+/*==============================FOOTER STARTS===================*/
+
+footer{
+    background-color: #23180a;
+    padding: 1rem 2rem 3rem;
+    
+}
+
+footer img{
+    margin: 1.5rem auto;
+    width: 60%;
+}
+
+/*to change the color of social icons*/
+footer p, footer a, 
+.socket a{
+    text-decoration: none;
+    color: #fff;
+}
+/*to make social icons inline  ----*/
+
+footer h5{
+    color: #f7941e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+ul.social{
+    list-style: none;
+    display: flex;
+    max-width: 20rem;
+    margin: 0 auto;
+    padding: 0;
+}
+ul.social li{
+   margin:0 auto; 
+}
+
+/*to make social icons font big*/
+footer .fa {
+    font-size: 2rem;
+    text-align: center;
+}
+footer .fa:hover{
+color: #f7941e;
+
+}
+/*==================FOOTER ENDS==========*/
+
+
+
+/*=================== UNDER FOOTER SOCKET STARTS=========*/
+.socket {
+    background-color: black;
+    border-top: .1rem solid #f7941e ;
+}
+
+/*=================== UNDER FOOTER SOCKET ENDS================*/
+
+
+
+/*=========================================================****HOME PAGE STYLING ENDS******========================================*/
+
+
+
+
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+/*=========================================================****CEYLON TEA SECTION STARTS******========================================*/
+.ceylon-tea-section-1{
+    /*background-image: url(../Images/Ceylontea/ct-bg-section-1.png);*/
+    width: 100%;
+    background-color: #e2e3e5;
+    height: auto;
+    background-size: cover;
+}
+
+.ceylon-tea-section-1 p{
+    font-family: 'Domine', serif;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+}
+
+.ceylon-tea-section-1 h1{
+    font-family: 'Domine', serif;
+    font-size: 2.5rem;
+}
+
+
+/*Responsive for ceylon tea heading */
+
+@media screen and (max-width:576px){
+    .ceylon-tea-section-1 h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+.heading-gold{
+    color: #cc6d05;
+}
+
+.tea-region-section{
+    background-color: #e2e3e5;
+}
+
+.tea-region-section h3{
+    font-family: 'Domine', serif;
+    color: black;
+    letter-spacing: 3px;
+    
+    
+}
+
+@media screen and (max-width:576px){
+    .tea-region-section h3 {
+        font-size: 2rem;
+    }
+    
+}
+
+
+.section-modal{
+    width: 100%;
+}
+
+.modal-body p{
+    font-family: 'Domine', serif;
+    color: black;
+}
+
+.modal-title{
+    font-family: 'Domine', serif;
+    color: black;
+}
+ 
+.tea-region-logo img{
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+@media screen and (max-width:576px){
+    .tea-region-logo img {
+        flex: 50%;
+        max-width: 75%;
+        margin: 15px 0;
+    }
+    
+}
+
+.tea-region-logo img:hover{
+    transform: scale(1.1);
+    transition: ease 2s;
+}
+
+
+
+/*=========================================================****CEYLON TEA SECTION ENDS******========================================*/
+
+
+
+
+/*=========================================================****ABOUT US PAGE Starts******========================================*/
+
+.about-coloumn .col-md-5.col-sm-12 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.about-coloumn .col-md-10{
+    background-color: #647b8a;
+    color: #fff;
+    width: 100%;
+}
+
+.about-coloumn .col-md-10 h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 1rem;
+}
+
+.about-coloumn .col-md-7 h6{
+    font-family: 'Domine', serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    line-height: 1px;
+}
+
+
+.about-coloumn .col-md-10 p{
+    font-family: 'Domine', serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:576px){
+    .about-coloumn .col-md-10 p {
+        width: 100%;
+        font-size: 0.8rem;
+        
+    }
+    
+}
+
+.about-coloumn .col-md-7 .fa{
+    font-size: 1.3rem;
+}
+
+
+.mission-coloumn p{
+    font-family:'roboto';
+    font-size: 1rem;
+}
+
+.mission-coloumn h2{
+    font-family: 'Domine', serif;
+    letter-spacing: 2px;
+}
+
+
+
+.about-us-ceylontea{
+    background-image: url("../Images/about/abt-bg-ceylonte.jpg");
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 6rem;
+}
+
+
+.about-us-ceylontea p{
+    font-family:"poppins";
+    font-size: 1.3rem;
+    color: #fff;
+    line-height: 2.2rem;
+    margin: 25px 25px 0 25px;
+    font-weight: 400;
+}
+
+.about-us-ceylontea img{
+    width: 576px;
+}
+@media screen and (max-width:576px){
+    .about-us-ceylontea img{
+        width: 300px;
+        
+    }
+    
+}
+/*=========================================================****ABOUT US PAGE ENDS******========================================*/
+
+
+
+
+
+/*=========================================================****OUR PRODUCT PAGE Starts******========================================*/
+
+
+
+.product-section-1 {
+    background-image:url("../Images/products/product-top-cover.png");
+    max-width: 100%;
+    height: 27rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*product buttons starts category wise*/
+.product-btn{
+    background-color: #c29c3e;
+    padding-right:20px;
+    padding-left: 20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+
+    
+    
+
+}
+
+
+.product-section-1 h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+}
+
+
+.product-section-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8.5rem;
+   
+}
+
+@media screen and (max-width:576px){
+    .product-section-1 h1 {
+        font-size: 1rem;
+    }
+    .product-section-1 h6{
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media screen and (max-width:720px){
+    .product-section-1 h1 {
+        font-size: 7rem;
+    }
+    .product-section-1 h6{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+/*product page buton hover*/
+.product-btn:hover{
+    color: #ffff;
+    background-color: black;
+    transition: 2s;
+
+}
+/*hover for active page*/
+.product-btn.active,
+.product-btn:hover{
+    color: #ffff;
+    background-color: #a87000!important;
+    transition: 2s ease;
+
+}
+
+
+.product-btn{
+    color: #ffff;
+    font-size: 1.3rem;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+/*products button text-decoration none*/
+
+.product-section-2 a{
+    text-decoration: none;
+}
+
+
+
+
+.product-section-3{
+    background: linear-gradient(45deg, #ffffea, #e6e0c5);
+    height: auto;
+}
+
+
+
+
+
+
+
+/*to add two horizontal line in ----heading--- lyk this*/ 
+.hr-text{
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5rem;
+}
+
+.hr-text:before{
+    content: "";
+    background: linear-gradient(to right,
+    transparent,black,transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text:after{
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 2em;
+    line-height: 1.5em;
+    background-color: #f0ecd3;
+    }
+
+
+/*bootsrap cards shadow*/
+/*product card*/
+
+.card {
+    box-shadow: 0 0.5px 0.5px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 4% 6% 18% 0% / 4% 6% 15% 0%  ;
+    padding: 10px 15px;
+    
+  }
+   
+  .card img{
+    border-radius: 20px;
+  }
+
+
+.card:hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.8);
+    }
+
+
+    
+/*bootsrap cards shadow Ends*/
+      
+/*bigger icon*/
+
+.product-section-3 .card-arrow .fa{
+    margin: 0 auto;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.product-section-3 .card-arrow .fa:hover{
+    margin: 0 auto;
+    color: #c5c993;
+    font-size: 2.5rem;
+
+}
+
+.product-section-3 .card-star .fa{
+    color: #a7a9ac;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.product-section-3 .card-star .fa:hover{
+    color: #f7941e;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+/*inside the card heading and paragraph*/
+.product-section-3 h4{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.product-section-3 h6{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    
+}
+
+
+
+
+/*=========================================================****OUR PRODUCT PAGE ENDS******========================================*/
+
+
+
+/*========================================****PRODUCTS ITEMS PARTICTION PAGES starts******================================*/
+/*written internal css inside the html page */
+
+
+/*========================================****PRODUCTS ITEMS PARTICTION PAGES Ends******================================*/
+
+
+
+
+
+
+/*========================================****Contact Us Page Starts******================================*/
+
+.section-contact-1-bg{
+    background-image: url("../Images/Contact/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+
+
+iframe{
+    border-radius: 5px;
+    border: 3px solid #a87000;
+}
+
+
+.section-contact-1-bg h2{
+    font-family:'roboto';
+    letter-spacing: 3px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+
+}
+
+
+.section-contact-1-bg h3{
+    font-family:'roboto';
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+
+}
+
+
+.section-contact-1-bg p{
+    font-family:'roboto';
+    letter-spacing: 1px;
+    font-weight: bolder;
+
+}
+
+.shipping-row img{
+    border-radius: 5%;
+}
+
+
+/*--------------Shipping row--------------------*/
+
+.shipping-row h1{
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+}
+
+.shipping-row p{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.3rem;
+}
+
+
+.shipping-row .Sign-up-button{
+    background-color: #fff;
+    padding-right:70px;
+    padding-left: 70px; 
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.shipping-row .Sign-up-button:hover{
+    background-color: #f7941e;
+}
+/*========================================****Contact Us Page Ends******================================*/
+
+
+
+/*========================================****Sign Up Page Starts******================================*/
+
+
+.section-sign-bg{
+    background-image: url("../Images/Sign/sign-in-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+
+.section-sign-bg h1{
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    font-weight: 700;
+    padding-top:45px;
+    font-style: italic;
+}
+
+form{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.sign-para{
+    font-family:'roboto';
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.sign-second-heading{
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    padding-top: 5rem;
+}
+
+
+/*****************************************WHATSAPP ICON******************************/
+
+.whatsapp_float img{
+    position: fixed;
+    bottom: 3rem;
+    right: 40px;
+    z-index: 90!important;
+    transition: transform .2s; /* Animation */
+}
+
+.whatsapp_float img:hover{
+    transform: scale(1.2);
+}
+
+/*========================================****Sign Up Page Ends******================================*/
+
+.complaint-head{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+}
